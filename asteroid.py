@@ -25,4 +25,4 @@ class Asteroid(CircleShape):
             split1 = Asteroid(self.position.x, self.position.y, self.radius)
             split2 = Asteroid(self.position.x, self.position.y, self.radius)
             split1.velocity = vector1*1.2
-            split2.velocity = vector2
+            split2.velocity = vector2*1.2
